@@ -2,7 +2,8 @@ import React from "react";
 import Card from "../components/Card";
 
 const Home = () => (
-  <main className="flex-1 p-6 bg-gray-100">
+
+<main className="flex-1 p-6 bg-gray-100">
     <h1 className="text-center text-3xl font-bold text-primary mb-6">
       E-Bike Conversion Kits
     </h1>
@@ -13,17 +14,17 @@ const Home = () => (
       <Card
         title="Front-Wheel Conversion Kit"
         description="Quick and easy installation with a durable motor for front-wheel drive."
-        image="https://media.istockphoto.com/id/1157159143/photo/wheel-of-the-electric-bicycle-front-view-e-bike-motor-with-light-reflections-close-up.jpg?s=1024x1024&w=is&k=20&c=ewGRbKlEcnnAFfIq0JxK6BaRI6vQDUl6fxfdKENWdUs="
+        image="https://img.freepik.com/premium-photo/axle-front-bicycle-wheel-closeup_389554-664.jpg?uid=R201118973&ga=GA1.1.1372238407.1747751594&semt=ais_hybrid&w=740"
       />
       <Card
         title="Rear-Wheel Conversion Kit"
         description="Experience superior traction and power with our rear-wheel e-bike kit."
-        image="https://media.istockphoto.com/id/2152143391/photo/electric-motor-and-gears-on-rear-e-bike-hub-close-up.jpg?s=1024x1024&w=is&k=20&c=1AaPxatvVA-KiehToQ01Bzk29zKUNT74aPNP6S_gYqU="
+        image="https://images.pexels.com/photos/19241605/pexels-photo-19241605/free-photo-of-close-up-of-a-bicycle-wheel.jpeg?auto=compress&cs=tinysrgb&w=600"
       />
       <Card
         title="Mid-Drive Conversion Kit"
         description="Optimal weight distribution and performance for all terrains."
-        image="https://media.istockphoto.com/id/1416880845/photo/electric-mountain-bike-is-charging-with-the-plug-inserted-to-recharge-the-battery.jpg?s=1024x1024&w=is&k=20&c=H4JPirR6ZZ2aRroEj5iizV5FIXarMGTdNXlFWnI6sD8="
+        image="https://images.pexels.com/photos/19423654/pexels-photo-19423654/free-photo-of-close-up-of-bicycle.jpeg?auto=compress&cs=tinysrgb&w=600"
       />
     </section>
   </main>

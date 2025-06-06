@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+/* Optional: Make scrolling feel like flipping pages */
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+/* Headings and paragraphs styling for clarity */
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  text-align: center;
+}

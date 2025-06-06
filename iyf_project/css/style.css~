@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #004080;
+  color: white;
+  position: relative;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-left a, .nav-right a, .mobile-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-left a:hover, .nav-right a:hover, .mobile-menu a:hover {
+  background-color: white;
+  color: #004080;
+  border-radius: 4px;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #004080;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  left: 0;
+  padding: 20px;
+  z-index: 99;
+}
+
+@media (max-width: 900px) {
+  .nav-left, .nav-right {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .mobile-menu.active {
+    display: flex;
+  }
+
+  .nav-logo {
+    margin: 0 auto;
+  }
+}
