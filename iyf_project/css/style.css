@@ -89,11 +89,11 @@ body {
   color: #6d6d6d;
 }
 .hero-img {
-  flex: 1 1 40%;
-  text-align: right;
+  flex: 1 1 100%;
+  text-align:centre;
 }
 .hero-img img {
-  width: 270px;
+  width: 1400px;
   max-width: 100%;
   border-radius: 18px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.07);
@@ -169,21 +169,21 @@ body {
   flex: 1 1 55%;
 }
 .steps-info h2 {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.7rem;
+  font-weight: 400;
   margin-bottom: 18px;
 }
 .steps-info p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-bottom: 26px;
   color: #6d6d6d;
 }
 .steps-img {
-  flex: 1 1 38%;
+  flex: 1 1 70%;
   text-align: right;
 }
 .steps-img img {
-  width: 210px;
+  width: 400px;
   max-width: 100%;
   border-radius: 14px;
 }
