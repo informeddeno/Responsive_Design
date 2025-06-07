@@ -1,4 +1,4 @@
-/* Reset & Base */
+* Reset & Base */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
@@ -312,7 +312,7 @@ body {
 }
 
 /* Testimonials */
-/*
+
 .testimonials-section {
   background: #fff;
   text-align: center;
@@ -327,6 +327,9 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 16px;
+}
+.testimonials {
+  display: flex;
 }
 .testimonial-card {
   background: #f8f7f5;
@@ -350,7 +353,52 @@ body {
   font-size: 1.6rem;
   color: #e9b686;
 }
-*/
+/*from trial2*/
+/* Testimonials Slider */
+.testimonial-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  position: relative;
+}
+.testimonial-arrow {
+  background: #ffe8ca;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.5rem;
+  color: #e1a14f;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.testimonial-arrow:hover {
+  background: #e1a14f;
+  color: #fff;
+}
+.testimonial-track {
+  width: 210px;
+  overflow: hidden;
+  position: relative;
+  min-height: 88px;
+  display: flex;
+}
+.testimonial-slide {
+  display: none;
+  min-width: 210px;
+  transition: opacity 0.3s;
+  text-align: left;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(211, 189, 163, 0.09);
+  padding: 18px 14px;
+}
+.testimonial-slide.active {
+  display: block;
+}
+
 
 /* FAQ Section */
 .faq-section {
